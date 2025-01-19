@@ -12,7 +12,7 @@ let ck = {
   RSPC = kc.ESC & hold.reg.layer 1 & hold.reg.behavior FAST_BHV,
   TAB = kc.TAB & hold.reg.layer 2 & hold.reg.behavior STD_BHV,
   ENTER = kc.ENTER & hold.reg.layer 2 & hold.reg.behavior STD_BHV,
-  F = kc.F & hold.reg.layer 3 & hold.reg.behavior STD_BHV,
+  F = kc.F & hold.reg.layer 3 & hold.reg.behavior FAST_BHV,
 
   A = kc.A & hold.reg.mod.lsft & hold.reg.behavior FAST_BHV,
   SCLN = kc.SCLN & hold.reg.mod.lsft & hold.reg.behavior FAST_BHV,
@@ -28,7 +28,7 @@ let ck = {
     timeout_ms = 200,
   },
   FAST_BHV = {
-    timeout_ms = 150,
+    timeout_ms = 130,
   },
 } in
 
